@@ -14,6 +14,7 @@ export default class MainMenu extends Component {
     addExpense(){
         Alert.alert('Hi');
     }
+    
 
     render() {
                 return (

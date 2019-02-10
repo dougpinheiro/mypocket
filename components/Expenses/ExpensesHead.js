@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, AppRegistry, StyleSheet } from 'react-native';
 
-export default class DespesasHead extends Component {
+export default class ExpensesHead extends Component {
 
     constructor(props) {
         super(props);
@@ -42,4 +42,4 @@ const styles = StyleSheet.create({
     }
 });
 
-AppRegistry.registerComponent('DespesasHead', () => DespesasHead);
+AppRegistry.registerComponent('ExpensesHead', () => ExpensesHead);
